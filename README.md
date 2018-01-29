@@ -39,4 +39,51 @@ Main Classes:
 > <b>ItemQuebraPagina:</b> This class is responsable for insert page break in document;<br>
 > <b>ItemContainer:</b> This class is a neutral element for agroup others elements;<br>
 
+<br>
+
+Example 1 (Document with paragraph):
+
+```java
+	public static void main(String[] args) {
+		IRelatorioBuilder relatorioBuilder = new Docx4jReportBuilder();
+		IRelatorio r = new IRelatorio();
+		IItemBuilder ib = new Docx4jItemBuilder();
+		
+		List<ItemRelatorio> itens = new ArrayList<ItemRelatorio>();
+		
+		itens.add(addParagraph(ib));
+		itens.add(new ItemQuebraPagina(ib));
+		itens.add(addParagraph(ib));
+		
+		r.getItensRelatorio().addAll(itens);
+		
+		InputStream is = relatorioBuilder.construirRelatorio(r);
+		try {
+			OutputStream os = new FileOutputStream("yourPath");
+	        
+	        byte[] buffer = new byte[1024];
+	        int bytesRead;
+	        while((bytesRead = is.read(buffer)) !=-1){
+	            os.write(buffer, 0, bytesRead);
+	        }
+	        is.close();
+	        os.flush();
+	        os.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private static ItemRelatorio addParagraph(IItemBuilder ib) {
+		ItemParagrafo itemPara = new ItemParagrafo(ib);
+		itemPara.setConteudo("Paragraph Test");
+		itemPara.setAlinhamento(Alinhamento.CENTRO);
+		itemPara.setFonte(TipoFonte.ARIAL);
+		itemPara.setTamanhoFonte(12);
+		itemPara.setNegrito(true);
+		return itemPara;	
+	}
+
+```
+
 <hr>
