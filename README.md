@@ -28,13 +28,15 @@
 
 Main Classes: 
 
-> <b>ItemSecao:</b> <br>
-> <b>ItemSumario:</b> <br>
-> <b>ItemParagrafo:</b> <br>
-> <b>ItemImagem:</b> <br>
-> <b>ItemTabela:</b> <br>
-> <b>ItemLinha:</b> <br>
-> <b>ItemLista:</b> <br>
-> <b>ItemQuebraPagina:</b> <br>
-> <b>ItemRelatorio:</b> <br>
-> <b>ItemContainer:</b> <br>
+> <b>ItemSecao:</b> This class is responsable for generate sections in word document;<br>
+> <b>ItemSumario:</b> This class is responsable for generate sumary in word document;<br>
+> <b>ItemParagrafo:</b> This class is responsable for generate paragraphs and custom;<br>
+> <b>ItemImagem:</b> This class is responsable for import image in document;<br>
+> <b>ItemTabela:</b> This class is responsable for generate tables (together with ItemLinha and ItemColuna);<br>
+> <b>ItemLinha:</b> This class is resposable for insert rows in table;<br>
+> <b>ItemColuna:</b> This class is responsable for insert cells in rows;<br>
+> <b>ItemLista:</b> This class is responsable for generate paragraph with marks and numerations;<br>
+> <b>ItemQuebraPagina:</b> This class is responsable for insert page break in document;<br>
+> <b>ItemContainer:</b> This class is a neutral element for agroup others elements;<br>
+
+<hr>
