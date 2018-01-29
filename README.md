@@ -8,11 +8,10 @@
 
 # Getting Started
 
-<hr>
-
 <p> Download jar file <a href=""> Docx4jUFPI-0.0.1-SNAPSHOT.jar </a>. </p>
 <p> Import jar file into project and add dependency in your pom.xml:</p>
-```
+
+```html
 	<dependency>
 	    <groupId>ufpi.br</groupId>
 	    <artifactId>Docx4jUFPI</artifactId>
@@ -22,3 +21,5 @@
 	    <type>jar</type>
 	</dependency>
 ```
+
+<hr>
