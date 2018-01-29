@@ -88,4 +88,3 @@ Example 1 (Document with paragraph):
 
 <hr>
 
-# Victor é um caburé
