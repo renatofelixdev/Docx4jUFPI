@@ -8,7 +8,7 @@
 
 # Getting Started
 
-<p> Download jar file <a href=""> Docx4jUFPI-0.0.1-SNAPSHOT.jar </a>. </p>
+<p> Download jar file <a href="https://github.com/renatofelixdev/Docx4jUFPI/blob/master/target/Docx4jUFPI-0.0.1-SNAPSHOT.jar"> Docx4jUFPI-0.0.1-SNAPSHOT.jar </a>. </p>
 <p> Import jar file into project and add dependency in your pom.xml:</p>
 
 ```html
@@ -23,3 +23,18 @@
 ```
 
 <hr>
+
+# Documentation
+
+Classes Principais: 
+
+*<b>ItemSecao:</b>
+*<b>ItemSumario:</b>
+*<b>ItemParagrafo:</b>
+*<b>ItemImagem:</b>
+*<b>ItemTabela:</b>
+*<b>ItemLinha:</b>
+*<b>ItemLista:</b>
+*<b>ItemQuebraPagina:</b>
+*<b>ItemRelatorio:</b>
+*<b>ItemContainer:</b>
