@@ -26,15 +26,15 @@
 
 # Documentation
 
-Classes Principais: 
+Main Classes: 
 
-*<b>ItemSecao:</b>
-*<b>ItemSumario:</b>
-*<b>ItemParagrafo:</b>
-*<b>ItemImagem:</b>
-*<b>ItemTabela:</b>
-*<b>ItemLinha:</b>
-*<b>ItemLista:</b>
-*<b>ItemQuebraPagina:</b>
-*<b>ItemRelatorio:</b>
-*<b>ItemContainer:</b>
+> <b>ItemSecao:</b>
+> <b>ItemSumario:</b>
+> <b>ItemParagrafo:</b>
+> <b>ItemImagem:</b>
+> <b>ItemTabela:</b>
+> <b>ItemLinha:</b>
+> <b>ItemLista:</b>
+> <b>ItemQuebraPagina:</b>
+> <b>ItemRelatorio:</b>
+> <b>ItemContainer:</b>
